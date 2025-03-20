@@ -1,0 +1,8 @@
+inches_in_foot = 12
+
+def convert_feet_to_inches():
+    feet_input = float(input("Enter number of feet: "))
+    inches_output = feet_input * inches_in_foot
+    print("That is", inches_output, "inches!")
+
+convert_feet_to_inches()
