@@ -1,0 +1,7 @@
+def favorite_animal():
+    animal = input("What's your favorite animal? ")
+    print("My favorite animal is also " + animal + "!")
+
+favorite_animal()
+
+
