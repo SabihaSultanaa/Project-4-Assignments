@@ -1,0 +1,17 @@
+affirmation = "I am capable of doing anything I put my mind to."
+
+def main():
+    print("Please type the following affirmation: " + affirmation)
+
+    user_input = input()  # Get user's input
+    while user_input != affirmation:  # While the user's input isn't the affirmation
+        print("That was not the affirmation.")
+
+        # Ask the user to type the affirmation again!
+        print("Please type the following affirmation: " + affirmation)
+        user_input = input()
+
+    print("That's right! :)")
+
+if __name__ == '__main__':
+    main()
