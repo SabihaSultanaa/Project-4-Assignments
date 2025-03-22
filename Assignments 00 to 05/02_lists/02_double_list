@@ -1,0 +1,13 @@
+def double_elements(nums: list[int]) -> None:
+    for index in range(len(nums)):
+        nums[index] *= 2
+
+
+def main():
+    values = [1, 2, 3, 4]
+    double_elements(values)
+    print(values)
+
+
+if __name__ == '__main__':
+    main()
