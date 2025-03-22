@@ -1,0 +1,15 @@
+def calculate_total(values: list[int]) -> int:
+    result = 0
+    for value in values:
+        result += value
+    return result
+
+
+def main():
+    numbers = [1, 2, 3, 4, 5]
+    total = calculate_total(numbers)
+    print(total)
+
+
+if __name__ == '__main__':
+    main()
