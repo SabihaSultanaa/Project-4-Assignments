@@ -1,0 +1,12 @@
+import random
+
+n_numbers = 10
+min_value = 1
+max_value = 100
+
+def main():
+    for _ in range(n_numbers):
+        print(random.randint(min_value, max_value))
+
+if __name__ == '__main__':
+    main()
